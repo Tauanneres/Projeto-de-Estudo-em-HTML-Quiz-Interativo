@@ -1,4 +1,5 @@
 # 📚 Quiz Interativo para Programadores (HTML + CSS)
+🔗 [Ver o site funcionando no GitHub Pages](https://tauanneres.github.io/Projeto-de-Estudo-em-HTML-Quiz-Interativo/)
 
 Este projeto é um quiz interativo desenvolvido como um exercício prático para demonstrar o conhecimento e a aplicação de **HTML5** e **CSS3**.  
 
