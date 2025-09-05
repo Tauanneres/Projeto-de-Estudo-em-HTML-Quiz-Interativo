@@ -1,65 +1,101 @@
-# 📚 Quiz Interativo para Programadores (Projeto de Estudo em HTML)
+📚 Quiz Interativo para Programadores (Projeto de Estudo em HTML + CSS)
 
-Este projeto é um quiz interativo desenvolvido como um exercício prático para demonstrar o conhecimento e a aplicação de uma vasta gama de recursos da linguagem **HTML5**.  
+Este projeto é um quiz interativo desenvolvido como um exercício prático para demonstrar o conhecimento e a aplicação de HTML5 e CSS3.
 
-O objetivo principal foi construir uma página web completa e estruturada utilizando apenas HTML, a fim de consolidar o aprendizado sobre formulários, tags semânticas, tabelas e outros elementos essenciais.
+O objetivo principal foi construir uma página web completa, estruturada e estilizada, consolidando o aprendizado sobre formulários, tags semânticas, tabelas e estilização visual.
 
----
+🚀 Tecnologias Utilizadas
 
-## 🚀 Tecnologias Utilizadas
-- **HTML5** → Estrutura, conteúdo e semântica da página.
+HTML5 → Estrutura, conteúdo e semântica da página.
 
----
+CSS3 → Estilização da interface, com foco em tipografia, cores, responsividade e usabilidade.
 
-## 📄 Estrutura do Código
+🎨 Estilos Aplicados (CSS)
 
-### 1. Cabeçalho (`<header>`)
-- `<h1>`: Define o título principal do quiz.  
-- `<p>`: Breve descrição do projeto, com o nome do autor destacado em `<strong>`.  
+O arquivo style.css foi criado para separar a camada de apresentação da estrutura HTML.
+Principais recursos aplicados:
 
-### 2. Conteúdo Principal (`<main>`)
-Dividido em várias seções (`<section>`), cada uma com um propósito específico.  
+Fonte externa (Google Fonts) → importada via @import para aplicar a tipografia Cabin.
 
-#### Seção de Introdução
-- `<h2>`: Título da seção *"Sobre esse quiz"*.  
-- `<p>`: Explicação do propósito do quiz.  
-- `<strong>` e `<em>`: Ênfase visual e semântica.  
-- `<abbr>`: Mostra o significado completo de acrônimos como **HTML** e **CSS** ao passar o mouse.  
+Cores personalizadas → paleta em tons terrosos (#331F19, #CCD595, #798252) e neutros (#f4f0EA).
 
-#### Seções das Perguntas
-Cada pergunta foi criada em sua própria `<section>`:
-- **Pergunta 1 (Múltipla escolha)** → `<input type="radio">`
-- **Pergunta 2 (Texto)** → `<input type="text">` com `placeholder`
-- **Pergunta 3 (Senha)** → `<input type="password">`
-- **Pergunta 4 (Data)** → `<input type="date">`
-- **Pergunta 5 (Checkbox)** → `<input type="checkbox">`
-- **Pergunta 6 (Upload de Arquivo)** → `<input type="file">`
-- **Pergunta 7 (Menu Suspenso)** → `<select>` e `<option>`
-- **Pergunta 8 (Imagem)** → `<figure>`, `<figcaption>` e `<img>`
+Header e Footer estilizados → com cores de fundo, tipografia e espaçamentos ajustados.
 
-### 3. Seções Finais
-- **Tabela de Pontuação**  
-  Estruturada com `<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>` e `<td>`.  
+Inputs e Formulários → input, select, textarea e button com border-radius, outline: none, placeholders personalizados e accent-color para rádio/checkbox.
 
-- **Lista de Respostas**  
-  Utiliza `<details>` e `<summary>` para criar um *accordion*, exibindo respostas em `<ol>` e `<li>`.  
+Tabela de Pontuação → uso de border-collapse, thead, tbody e tfoot estilizados em cores diferentes.
 
-- **Formulário de Feedback**  
-  Criado com `<fieldset>`, `<legend>` e `<textarea>` para comentários.  
+Accordion de Respostas (<details> e <summary>) com fundo, bordas e cursor customizados.
 
-### 4. Rodapé (`<footer>`)
-- Link para o GitHub com `target="_blank"`.  
-- Informações de direitos autorais com `&copy;`.  
+Listas Ordenadas → espaçamento interno e margens ajustadas.
 
----
+Responsividade básica → uso de flexbox em <main> e <section> com gap.
 
-## 💡 O que este projeto demonstra
-✔️ Estrutura semântica do HTML5  
-✔️ Criação de formulários complexos com diferentes tipos de entrada  
-✔️ Organização clara de informações com listas e tabelas  
-✔️ Boas práticas de acessibilidade (uso de `alt`, `label` e `abbr`)  
+📄 Estrutura do Código (HTML)
+1. Cabeçalho (<header>)
 
----
+<h1>: Define o título principal do quiz.
 
-## 👨‍💻 Autor
-Desenvolvido por **Tauan Neres** 🚀  
+<p>: Breve descrição do projeto, com o nome do autor destacado em <strong>.
+
+2. Conteúdo Principal (<main>)
+
+Dividido em várias seções (<section>), cada uma com um propósito específico.
+
+Seção de Introdução
+
+<h2>: Título da seção "Sobre esse quiz".
+
+<p>: Explicação do propósito do quiz.
+
+<strong> e <em>: Ênfase visual e semântica.
+
+<abbr>: Mostra o significado completo de acrônimos como HTML e CSS ao passar o mouse.
+
+Seções das Perguntas
+
+Cada pergunta foi criada em sua própria <section>:
+
+Pergunta 1 (Múltipla escolha) → <input type="radio">
+
+Pergunta 2 (Texto) → <input type="text"> com placeholder
+
+Pergunta 3 (Senha) → <input type="password">
+
+Pergunta 4 (Data) → <input type="date">
+
+Pergunta 5 (Checkbox) → <input type="checkbox">
+
+Pergunta 6 (Upload de Arquivo) → <input type="file">
+
+Pergunta 7 (Menu Suspenso) → <select> e <option>
+
+Pergunta 8 (Imagem) → <figure>, <figcaption> e <img>
+
+3. Seções Finais
+
+Tabela de Pontuação
+Estruturada com <table>, <thead>, <tbody>, <tfoot>, <tr>, <th> e <td>.
+
+Lista de Respostas
+Utiliza <details> e <summary> para criar um accordion, exibindo respostas em <ol> e <li>.
+
+Formulário de Feedback
+Criado com <fieldset>, <legend> e <textarea> para comentários.
+
+4. Rodapé (<footer>)
+
+Link para o GitHub com target="_blank".
+
+Informações de direitos autorais com &copy;.
+
+💡 O que este projeto demonstra
+
+✔️ Estrutura semântica do HTML5
+✔️ Estilização moderna com CSS3 (Google Fonts, cores, flexbox, formatação de inputs, tabelas e listas)
+✔️ Separação clara entre estrutura (HTML) e apresentação (CSS)
+✔️ Boas práticas de acessibilidade (uso de alt, label e abbr)
+
+👨‍💻 Autor
+
+Desenvolvido por Tauan Neres 🚀
